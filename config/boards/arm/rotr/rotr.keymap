@@ -30,6 +30,7 @@
 			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 		};
 		three {
+			label = "shift";
 			//PREV | PLAY/PAUSE | NEXT
 			bindings = <&kp C_MUTE &lt 4 F13 &kp C_PP>;
 		};
